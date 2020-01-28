@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;    
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(126, 213, 111, 0.8), 
+        rgba(40, 180, 131, 0.8)), 
+        url(./img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position:relative;
+    
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0 100%)
+}
+
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo{
+    height:40px;
+}
+
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    /*Revisar esto en MDN despues y agregarlo al cuaderno*/
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+.heading-primary{
+    color: #f0f0f0;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+
+    margin-bottom: 20px;
+}
+
+.heading-primary-main{
+    display: block;
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 35px;
+
+    animation-name: moveInLeft;
+    animation-duration: 5s;
+    animation-delay: 0.3s;
+
+    /*
+    Repetir la animación
+    animation-iteration-count:3;
+
+    animation-timing-function:
+    */
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 15.4px;
+
+    animation-name:moveInRight;
+    animation-duration: 5s;
+    animation-delay: 0.3s;
+}
+
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80%{
+        transform: translateX(20px)
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(+100px);
+    }
+
+    80%{
+        transform: translateX(-20px)
+    }
+
+    100%{
+        opacity: 1;
+        transform:translate(0);
+    }
+}
+
+.btn:link,
+.btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    display:inline-block;
+    border-radius: 100px;
+    padding: 15px 40px;
+    transition: all .2s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0, .2);
+}
+
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow:0 5px 10px rgba(0,0,0, .2);
+}
+
+.btn-white{
+    background-color: #fff;
+    color:#777;
+}
