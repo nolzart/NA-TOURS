@@ -1,0 +1,20 @@
+{
+  "name": "na-tour",
+  "version": "1.0.0",
+  "description": "Landing page for na-tour",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss css/styles.css -w",
+    "type": "git",
+    "url": "git+https://github.com/Nolzart/NA-TOURS.git"
+  },
+  "author": "Omar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nolzart/NA-TOURS/issues"
+  },
+  "homepage": "https://github.com/Nolzart/NA-TOURS#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
