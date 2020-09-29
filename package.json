@@ -8,8 +8,8 @@
     "type": "git",
     "url": "git+https://github.com/Nolzart/NA-TOURS.git"
   },
-  "author": "Omar",
-  "license": "ISC",
+  "author": "Omar Colmenares",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Nolzart/NA-TOURS/issues"
   },
