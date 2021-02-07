@@ -6,7 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
         <!--- Icons -->
-        <link rel="stylesheet" href="css/icon-font.css" />
+        <!-- <link rel="stylesheet" href="css/icon-font.css" /> -->
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
         <!-- Fonts -->
         <link
             href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
@@ -15,12 +16,16 @@
         <!-- Styles -->
         <link rel="stylesheet" href="css/styles.css" />
 
-        <title>Na-tour</title>
+        <title>Natours</title>
     </head>
 
     <body>
         <div class="navigation">
-            <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+            <input
+                type="checkbox"
+                class="navigation__checkbox"
+                id="navi-toggle"
+            />
 
             <label for="navi-toggle" class="navigation__button"
                 ><span class="navigation__icon"></span
@@ -31,41 +36,61 @@
             <nav class="navigation__nav">
                 <ul class="navigation__list">
                     <li class="navigation__item">
-                        <a href="#" class="navigation__link"><span>01</span>About Natours</a>
+                        <a href="#" class="navigation__link"
+                            ><span>01</span>About Natours</a
+                        >
                     </li>
                     <li class="navigation__item">
-                        <a href="#" class="navigation__link"><span>02</span>Your benfist</a>
+                        <a href="#" class="navigation__link"
+                            ><span>02</span>Your benfist</a
+                        >
                     </li>
                     <li class="navigation__item">
-                        <a href="#" class="navigation__link"><span>03</span>Popular tours</a>
+                        <a href="#" class="navigation__link"
+                            ><span>03</span>Popular tours</a
+                        >
                     </li>
                     <li class="navigation__item">
-                        <a href="#" class="navigation__link"><span>04</span>Stories</a>
+                        <a href="#" class="navigation__link"
+                            ><span>04</span>Stories</a
+                        >
                     </li>
                     <li class="navigation__item">
-                        <a href="#" class="navigation__link"><span>05</span>Book Now</a>
+                        <a href="#" class="navigation__link"
+                            ><span>05</span>Book Now</a
+                        >
                     </li>
                 </ul>
             </nav>
         </div>
         <header class="header">
             <div class="header__logo-box">
-                <img src="./img/logo-white.png" alt="logo" class="header__logo" />
+                <img
+                    src="./img/logo-white.png"
+                    alt="logo"
+                    class="header__logo"
+                />
             </div>
 
             <div class="header__text-box">
                 <h1 class="heading-primary">
                     <span class="heading-primary--main">Outdoors</span>
-                    <span class="heading-primary--sub">is where life happens</span>
+                    <span class="heading-primary--sub"
+                        >is where life happens</span
+                    >
                 </h1>
 
-                <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
+                <a href="#section-tours" class="btn btn--white btn--animated"
+                    >Discover our tours</a
+                >
             </div>
         </header>
         <main>
             <section class="section-about">
                 <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">Exciting tours for adventurous people</h2>
+                    <h2 class="heading-secondary">
+                        Exciting tours for adventurous people
+                    </h2>
                 </div>
 
                 <div class="row">
@@ -74,19 +99,21 @@
                             You're going to fall in love with nature
                         </h3>
                         <p class="paragraph">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ex
-                            ad, quas vero iure recusandae, quos omnis consectetur maxime officiis
-                            magnam pariatur iusto cum atque nemo, molestiae nobis minus! Ab
-                            inventore consequatur vitae repudiandae, fugit commodi alias? Amet,
-                            facere accusamus!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Suscipit ex ad, quas vero iure recusandae,
+                            quos omnis consectetur maxime officiis magnam
+                            pariatur iusto cum atque nemo, molestiae nobis
+                            minus! Ab inventore consequatur vitae repudiandae,
+                            fugit commodi alias? Amet, facere accusamus!
                         </p>
                         <h3 class="heading-tertiary u-margin-bottom-small">
                             Live adventurous like your never have before
                         </h3>
                         <p class="paragraph">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ex
-                            ad, quas vero iure recusandae, quos omnis consectetur maxime officiis
-                            magnam pariatur.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Suscipit ex ad, quas vero iure recusandae,
+                            quos omnis consectetur maxime officiis magnam
+                            pariatur.
                         </p>
 
                         <a href="#" class="btn-text">Lear More &rarr;</a>
@@ -94,21 +121,30 @@
                     <div class="col-1-of-2">
                         <div class="composition">
                             <img
-                                srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                                srcset="
+                                    img/nat-1.jpg        300w,
+                                    img/nat-1-large.jpg 1000w
+                                "
                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo 1"
                                 class="composition__photo composition__photo--p1"
                                 src="img/nat-1-large.jpg"
                             />
                             <img
-                                srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                                srcset="
+                                    img/nat-2.jpg        300w,
+                                    img/nat-2-large.jpg 1000w
+                                "
                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo 2"
                                 class="composition__photo composition__photo--p2"
                                 src="img/nat-2-large.jpg"
                             />
                             <img
-                                srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                                srcset="
+                                    img/nat-3.jpg        300w,
+                                    img/nat-3-large.jpg 1000w
+                                "
                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                                 alt="Photo 3"
                                 class="composition__photo composition__photo--p3"
@@ -128,8 +164,8 @@
                                 Explore the world
                             </h3>
                             <p class="feature-box__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-                                neque?
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Temporibus, neque?
                             </p>
                         </div>
                     </div>
@@ -137,10 +173,12 @@
                     <div class="col-1-of-4">
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-compass"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Meet the nature</h3>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Meet the nature
+                            </h3>
                             <p class="feature-box__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-                                neque?
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Temporibus, neque?
                             </p>
                         </div>
                     </div>
@@ -148,10 +186,12 @@
                     <div class="col-1-of-4">
                         <div class="feature-box">
                             <i class="feature-box__icon icon-basic-map"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
+                            <h3 class="heading-tertiary u-margin-bottom-small">
+                                Find your way
+                            </h3>
                             <p class="feature-box__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-                                neque?
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Temporibus, neque?
                             </p>
                         </div>
                     </div>
@@ -163,8 +203,8 @@
                                 Live a healthier life
                             </h3>
                             <p class="feature-box__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-                                neque?
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Temporibus, neque?
                             </p>
                         </div>
                     </div>
@@ -178,9 +218,13 @@
                     <div class="col-1-of-3">
                         <div class="card">
                             <div class="card__side card__side--front">
-                                <div class="card__picture card__picture-1">&nbsp;</div>
+                                <div class="card__picture card__picture-1">
+                                    &nbsp;
+                                </div>
                                 <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--1">
+                                    <span
+                                        class="card__heading-span card__heading-span--1"
+                                    >
                                         The sea explorer
                                     </span>
                                 </h4>
@@ -195,13 +239,17 @@
                                 </div>
                             </div>
 
-                            <div class="card__side card__side--back card__side--back-1">
+                            <div
+                                class="card__side card__side--back card__side--back-1"
+                            >
                                 <div class="card__cta">
                                     <div class="card__price-box">
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$297</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white"
+                                        >Book now!</a
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -210,9 +258,13 @@
                     <div class="col-1-of-3">
                         <div class="card">
                             <div class="card__side card__side--front">
-                                <div class="card__picture card__picture-2">&nbsp;</div>
+                                <div class="card__picture card__picture-2">
+                                    &nbsp;
+                                </div>
                                 <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--2">
+                                    <span
+                                        class="card__heading-span card__heading-span--2"
+                                    >
                                         The forest hiker
                                     </span>
                                 </h4>
@@ -227,13 +279,17 @@
                                 </div>
                             </div>
 
-                            <div class="card__side card__side--back card__side--back-2">
+                            <div
+                                class="card__side card__side--back card__side--back-2"
+                            >
                                 <div class="card__cta">
                                     <div class="card__price-box">
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$497</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white"
+                                        >Book now!</a
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -242,9 +298,13 @@
                     <div class="col-1-of-3">
                         <div class="card">
                             <div class="card__side card__side--front">
-                                <div class="card__picture card__picture-3">&nbsp;</div>
+                                <div class="card__picture card__picture-3">
+                                    &nbsp;
+                                </div>
                                 <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--3">
+                                    <span
+                                        class="card__heading-span card__heading-span--3"
+                                    >
                                         The snow adventure
                                     </span>
                                 </h4>
@@ -259,13 +319,17 @@
                                 </div>
                             </div>
 
-                            <div class="card__side card__side--back card__side--back-3">
+                            <div
+                                class="card__side card__side--back card__side--back-3"
+                            >
                                 <div class="card__cta">
                                     <div class="card__price-box">
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$897</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white"
+                                        >Book now!</a
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -284,24 +348,33 @@
                     </video>
                 </div>
                 <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">We make people genuinely happy</h2>
+                    <h2 class="heading-secondary">
+                        We make people genuinely happy
+                    </h2>
                 </div>
                 <div class="row">
                     <div class="story">
                         <figure class="story__shape">
-                            <img src="img/nat-8.jpg" alt="Person on a tour" class="story__img" />
-                            <figcaption class="story__caption">Mary Smith</figcaption>
+                            <img
+                                src="img/nat-8.jpg"
+                                alt="Person on a tour"
+                                class="story__img"
+                            />
+                            <figcaption class="story__caption">
+                                Mary Smith
+                            </figcaption>
                         </figure>
                         <div class="story__text">
                             <h3 class="heading-tertiary u-margin-bottom-small">
                                 I had the best week ever with my family
                             </h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                                delectus eos, id atque aliquam odio quos perferendis ad et magnam
-                                sit, aspernatur esse fuga omnis pariatur doloremque aut sequi
-                                velit.pariatur doloremque aut sequi velit.pariatur doloremque aut
-                                sequi velit.
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Dicta delectus eos, id atque
+                                aliquam odio quos perferendis ad et magnam sit,
+                                aspernatur esse fuga omnis pariatur doloremque
+                                aut sequi velit.pariatur doloremque aut sequi
+                                velit.pariatur doloremque aut sequi velit.
                             </p>
                         </div>
                     </div>
@@ -309,19 +382,26 @@
                 <div class="row">
                     <div class="story">
                         <figure class="story__shape">
-                            <img src="img/nat-9.jpg" alt="Person on a tour" class="story__img" />
-                            <figcaption class="story__caption">Jack Wilson</figcaption>
+                            <img
+                                src="img/nat-9.jpg"
+                                alt="Person on a tour"
+                                class="story__img"
+                            />
+                            <figcaption class="story__caption">
+                                Jack Wilson
+                            </figcaption>
                         </figure>
                         <div class="story__text">
                             <h3 class="heading-tertiary u-margin-bottom-small">
                                 WOW! my life is completely different now
                             </h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                                delectus eos, id atque aliquam odio quos perferendis ad et magnam
-                                sit, aspernatur esse fuga omnis pariatur doloremque aut sequi
-                                velit.pariatur doloremque aut sequi velit.pariatur doloremque aut
-                                sequi velit.
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Dicta delectus eos, id atque
+                                aliquam odio quos perferendis ad et magnam sit,
+                                aspernatur esse fuga omnis pariatur doloremque
+                                aut sequi velit.pariatur doloremque aut sequi
+                                velit.pariatur doloremque aut sequi velit.
                             </p>
                         </div>
                     </div>
@@ -336,7 +416,9 @@
                         <div class="book_form">
                             <form action="#" class="form">
                                 <div class="u-margin-bottom-medium">
-                                    <h2 class="heading-secondary">Start booking now</h2>
+                                    <h2 class="heading-secondary">
+                                        Start booking now
+                                    </h2>
                                 </div>
 
                                 <div class="form__group">
@@ -348,7 +430,9 @@
                                         autocomplete="off"
                                         required
                                     />
-                                    <label for="name" class="form__label">Full name</label>
+                                    <label for="name" class="form__label"
+                                        >Full name</label
+                                    >
                                 </div>
 
                                 <div class="form__group">
@@ -360,7 +444,9 @@
                                         autocomplete="off"
                                         required
                                     />
-                                    <label for="email" class="form__label">Email address</label>
+                                    <label for="email" class="form__label"
+                                        >Email address</label
+                                    >
                                 </div>
 
                                 <div class="form__group u-margin-bottom-medium">
@@ -371,8 +457,13 @@
                                             id="small"
                                             name="size"
                                         />
-                                        <label for="small" class="form__radio-label">
-                                            <span class="form__radio-button"></span>
+                                        <label
+                                            for="small"
+                                            class="form__radio-label"
+                                        >
+                                            <span
+                                                class="form__radio-button"
+                                            ></span>
                                             Small tour group
                                         </label>
                                     </div>
@@ -384,15 +475,22 @@
                                             id="large"
                                             name="size"
                                         />
-                                        <label for="large" class="form__radio-label">
-                                            <span class="form__radio-button"></span>
+                                        <label
+                                            for="large"
+                                            class="form__radio-label"
+                                        >
+                                            <span
+                                                class="form__radio-button"
+                                            ></span>
                                             Large tour group
                                         </label>
                                     </div>
                                 </div>
 
                                 <div class="form__group">
-                                    <button class="btn btn--green">Next step &rarr;</button>
+                                    <button class="btn btn--green">
+                                        Next step &rarr;
+                                    </button>
                                 </div>
                             </form>
                         </div>
@@ -404,11 +502,17 @@
             <div class="footer__logo-box">
                 <picture>
                     <source
-                        srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
+                        srcset="
+                            img/logo-green-small-1x.png 1x,
+                            img/logo-green-small-2x.png 2x
+                        "
                         media="(max-width: 37.5rem)"
                     />
                     <img
-                        srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+                        srcset="
+                            img/logo-green-1x.png 1x,
+                            img/logo-green-2x.png 2x
+                        "
                         src="img/logo-green-2x.png"
                         alt="Full logo"
                         class="footer__logo"
@@ -429,20 +533,24 @@
                                 <a href="#" class="footer__link">Carrers</a>
                             </li>
                             <li class="footer__item">
-                                <a href="#" class="footer__link">Privacy policy</a>
+                                <a href="#" class="footer__link"
+                                    >Privacy policy</a
+                                >
                             </li>
-                            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Terms</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-1-of-2">
                     <p class="footer__copyright">
-                        Built by <a href="#" class="footer__link">Jonas Schmedtmann</a> for his
-                        online course <a href="#" class="footer__link">Advanced CSS and Sass</a>.
-                        Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use this
-                        webpage for both personal and commercial use, but NOT to claim it as your
-                        own design. A credit to the original author, Jonas Schmedtmann, is of course
-                        highly appreciated!
+                        Copyright &copy; by
+                        <a
+                            href="https://github.com/nolzart/"
+                            class="footer__link"
+                            >nolzart</a
+                        >
                     </p>
                 </div>
             </div>
@@ -458,16 +566,20 @@
                 <div class="popup__right">
                     <a href="#section__tours" class="popup__close">&times;</a>
 
-                    <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                    <h2 class="heading-secondary u-margin-bottom-small">
+                        Start booking now
+                    </h2>
                     <h3 class="heading-tertiary u-margin-bottom-small">
                         Important &ndash; Please read terms before booking
                     </h3>
 
                     <p class="popup__text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit cumque
-                        incidunt minima laborum, exercitationem saepe amet error fugit magnam unde
-                        fuga deleniti magni minus accusamus beatae. Nulla placeat sit, vitae cum
-                        est, excepturi, quod voluptatem unde ea itaque totam incidunt.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Odit cumque incidunt minima laborum,
+                        exercitationem saepe amet error fugit magnam unde fuga
+                        deleniti magni minus accusamus beatae. Nulla placeat
+                        sit, vitae cum est, excepturi, quod voluptatem unde ea
+                        itaque totam incidunt.
                     </p>
                     <a href="#" class="btn btn--green">Book now</a>
                 </div>
