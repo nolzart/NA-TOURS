@@ -1,6 +1,6 @@
 @mixin clearfix {
     &::after {
-        content: "";
+        content: '';
         display: table;
         clear: both;
     }
@@ -22,15 +22,23 @@ $breakpoint:
 */
 @mixin respond($breakpoint) {
     @if $breakpoint == phone {
-        @media screen and (max-width: 37.5em) { @content;} // 600 / 16 = 37.5
+        @media only screen and (max-width: 37.5em) {
+            @content;
+        } // 600 / 16 = 37.5
     }
     @if $breakpoint == tab-port {
-        @media screen and (max-width: 56.25em) { @content;} // 900 / 16 = 56.25
+        @media only screen and (max-width: 56.25em) {
+            @content;
+        } // 900 / 16 = 56.25
     }
     @if $breakpoint == tab-land {
-        @media screen and (max-width: 75em) { @content;} // 1200 / 16 = 75
+        @media only screen and (max-width: 75em) {
+            @content;
+        } // 1200 / 16 = 75
     }
     @if $breakpoint == big-desktop {
-        @media screen and (min-width: 112.5em) { @content;} // 1800 / 16 = 112.5
+        @media only screen and (min-width: 112.5em) {
+            @content;
+        } // 1800 / 16 = 112.5
     }
 }

@@ -13,13 +13,12 @@
         width: 100%;
         backface-visibility: hidden;
         overflow: hidden;
-        transition: all .8s ease;
+        transition: all 0.8s ease;
         border-radius: 3px;
-        box-shadow:0 1.5rem 4rem rgba($color-black, .15);
-        
+        box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
         &--front {
             background-color: $color-white;
-
         }
 
         &--back {
@@ -27,23 +26,26 @@
 
             &-1 {
                 background-image: linear-gradient(
-                    to right bottom, 
-                    $color-secondary-light, 
-                    $color-secondary-dark);
+                    to right bottom,
+                    $color-secondary-light,
+                    $color-secondary-dark
+                );
             }
 
             &-2 {
                 background-image: linear-gradient(
-                    to right bottom, 
-                    $color-primary-light, 
-                    $color-primary-dark);
+                    to right bottom,
+                    $color-primary-light,
+                    $color-primary-dark
+                );
             }
 
             &-3 {
                 background-image: linear-gradient(
-                    to right bottom, 
-                    $color-tertiary-light, 
-                    $color-tertiary-dark);
+                    to right bottom,
+                    $color-tertiary-light,
+                    $color-tertiary-dark
+                );
             }
         }
     }
@@ -58,32 +60,35 @@
 
     &__picture {
         background-size: cover;
-        background-blend-mode:screen;
-        height:23rem;
+        background-blend-mode: screen;
+        height: 23rem;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
         &-1 {
             background-image: linear-gradient(
-                to right bottom, 
-                $color-secondary-light, 
-                $color-secondary-dark),
+                    to right bottom,
+                    $color-secondary-light,
+                    $color-secondary-dark
+                ),
                 url(../img/nat-5.jpg);
         }
 
         &-2 {
             background-image: linear-gradient(
-                to right bottom, 
-                $color-primary-light, 
-                $color-primary-dark),
+                    to right bottom,
+                    $color-primary-light,
+                    $color-primary-dark
+                ),
                 url(../img/nat-6.jpg);
         }
 
         &-3 {
             background-image: linear-gradient(
-                to right bottom, 
-                $color-tertiary-light, 
-                $color-tertiary-dark),
+                    to right bottom,
+                    $color-tertiary-light,
+                    $color-tertiary-dark
+                ),
                 url(../img/nat-7.jpg);
         }
     }
@@ -94,9 +99,9 @@
         color: $color-white;
         text-transform: uppercase;
         text-align: right;
-        position:absolute;
+        position: absolute;
         top: 12rem;
-        right:2rem;
+        right: 2rem;
         width: 75%;
     }
 
@@ -106,21 +111,24 @@
         box-decoration-break: clone;
         &--1 {
             background-image: linear-gradient(
-                to right bottom, 
-                rgba($color-secondary-light, .85), 
-                rgba($color-secondary-dark, .85))
+                to right bottom,
+                rgba($color-secondary-light, 0.85),
+                rgba($color-secondary-dark, 0.85)
+            );
         }
         &--2 {
             background-image: linear-gradient(
-                to right bottom, 
-                rgba($color-primary-light, .85), 
-                rgba($color-primary-dark, .85))
+                to right bottom,
+                rgba($color-primary-light, 0.85),
+                rgba($color-primary-dark, 0.85)
+            );
         }
         &--3 {
             background-image: linear-gradient(
-                to right bottom, 
-                rgba($color-tertiary-light, .85), 
-                rgba($color-tertiary-dark, .85))
+                to right bottom,
+                rgba($color-tertiary-light, 0.85),
+                rgba($color-tertiary-dark, 0.85)
+            );
         }
     }
 
@@ -168,10 +176,10 @@
         font-size: 6rem;
     }
 
-    @include respond(tab-port) {
+    @media only screen and (max-width: 56.25em), only screen and (hover: none) {
         height: auto;
         background-color: $color-white;
-        box-shadow:0 1.5rem 4rem rgba($color-black, .15);
+        box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
         &__side {
             height: auto;
